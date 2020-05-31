@@ -1,0 +1,225 @@
+/*ALGEMEEN*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+h2, h3 {
+  color: var(--color-darkblue);
+}
+
+P {
+  color: var(--color-darkblue);
+}
+
+li {
+  color: var(--color-darkblue);
+}
+
+/* body div{
+  border:1px solid red;
+} */
+
+/*HOME*/
+
+.navWeb{
+  display:none;
+}
+
+@media only screen and (min-width:540px) {
+  .navMobile{
+    display:none;
+  }
+
+  .navWeb{
+    display:block;
+  }
+}
+
+
+body {
+  font-family: var(--text-font);
+}
+
+.container-fluid{
+  padding:0;
+}
+
+img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.btn,
+button {
+  border: none;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background: transparent;
+  border-radius: 2rem;
+  width: 100%;
+}
+
+.btn-outline {
+  border: 2px solid var(--color-darkblue);
+  font-weight: 900;
+  color: var(--color-darkblue);
+}
+
+.btn-outline-facebook {
+  font-weight: 900;
+  background-color: var(--color-facebook);
+  color: var(--color-white);
+}
+
+a {
+  color: var(--dark-gray);
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-darkblue);
+  font-weight: 100;
+}
+
+.logo {
+  font-size: 6rem;
+  text-align: center;
+  color: var(--color-darkblue);
+  margin-top: 40px;
+}
+
+.description {
+  margin: 0 20%;
+  margin-bottom:10%;
+  font-size: 1.2rem;
+  color: var(--color-darkblue);
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 20%;
+}
+
+.btn-signup {
+  color: var(--color-darkgray);
+  background: var(--color-yellow);
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.input {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid var(--color-darkblue);
+}
+
+.forgot-password {
+  align-self: flex-end;
+  margin: 1rem 0;
+}
+
+.app-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 4rem;
+  background: var(--color-darkblue);
+  color: var(--color-lightblue);
+  margin-bottom: 10%;
+  font-size: 3rem;
+}
+
+.downloadApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*LIJSTPAGINA*/
+
+.header {
+  padding: 1rem;
+  background: var(--color-darkblue);
+  color: var(--color-lightblue);
+  font-size: 1.2rem;
+  height: 3rem;
+}
+
+.card {
+  margin: 0.5rem;
+}
+
+.card-body {
+  background: var(--color-lightblue);
+  margin-bottom: 5rem;
+}
+.card-avatar {
+  border-radius: 50%;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.containerNavMobile{
+  position: fixed;
+  z-index:1;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: var(--color-darkblue);
+  color: var(--color-lightblue);
+  padding-top: 1rem;
+}
+
+
+.navMobile div i{
+  font-size:30px;
+  text-align: center;
+}
+
+.navMobile img{
+  height:30px;
+  width:30px;
+  border-radius: 15px;
+}
+
+.feedOnderdeel {
+  text-align: center;
+  color: var(--color-darkblue);
+}
+
+/*DETAILPAGINA*/
+
+.collectie {
+  padding-left: 31px;
+}
+
+.albumCover {
+  position: relative;
+}
+
+.tracklist {
+  margin-bottom: 2rem;
+}
+
+

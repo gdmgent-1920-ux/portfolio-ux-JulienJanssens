@@ -1,0 +1,6 @@
+/*CSS files*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import "./normalize.css";
+@import "./grid.min.css";
+@import "./variables.css";
+@import "./main.css";
